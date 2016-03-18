@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008000"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+   
+    android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/who"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/head"
+            android:layout_marginTop="23dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="       tel"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/who"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="      Title" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/who"
+            android:layout_below="@+id/who"
+            android:layout_marginTop="42dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="    type message here"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/respond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/message"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape"
+            android:layout_marginTop="29dp"
+            android:text="send" />
+
+    </RelativeLayout>

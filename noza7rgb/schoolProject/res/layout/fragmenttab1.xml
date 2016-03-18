@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/android"
+    android:layout_height="match_parent"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"  >
+
+    <Button
+        android:id="@+id/police"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/rgb"
+        android:layout_below="@+id/rgb"
+        android:layout_marginTop="18dp"
+        android:background="#8FBC8F"
+        android:text="POLICE STAFF"
+        android:textColor="#eceef1"
+        android:textSize="18px" />
+
+    <Button
+        android:id="@+id/alert"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#8FBC8F"
+        android:text=" ALERT TO RGB"
+        android:textColor="#eceef1"
+        android:textSize="18px" />
+
+    <Button
+        android:id="@+id/rgb"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/alert"
+        android:layout_below="@+id/alert"
+        android:layout_marginTop="18dp"
+        android:background="#8FBC8F"
+        android:text="RGB STAFF"
+        android:textColor="#eceef1"
+        android:textSize="18px" />
+
+</RelativeLayout>

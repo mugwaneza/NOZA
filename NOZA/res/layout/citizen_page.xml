@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ae90"
+    android:gravity="bottom"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="40dp"
+    android:paddingRight="45dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs.school.noza.CitizenPage$PlaceholderFragment" >
+
+    <RelativeLayout
+        android:id="@+id/rgb"
+        android:layout_width="match_parent"
+        android:layout_height="492dp"
+        android:gravity="left" >
+
+        <EditText
+            android:id="@+id/txtDate"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignLeft="@+id/txtTime"
+            android:layout_toLeftOf="@+id/button2"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="pick a date"
+            android:textColor="#222222" />
+
+        <cs.school.noza.CustomAutoCompleteTextView
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/txtDate"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="38dp"
+            android:autoText="true"
+            android:gravity="center"
+            android:drawableLeft="@drawable/googlepointer"
+            android:background="@drawable/shape"
+            
+             android:textColor="#222222"
+           />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/idea"
+            android:layout_alignRight="@+id/institution"
+            android:layout_marginBottom="11dp"
+            android:textColor="#eceef1"
+            android:text="Institution" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/institution"
+            android:layout_alignRight="@+id/reason"
+            android:layout_marginBottom="11dp"
+            android:textColor="#eceef1"
+            android:text="Reason" />
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtDate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:textColor="#eceef1"
+            android:text="Type here your location" />
+
+        <Spinner
+            android:id="@+id/institution"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/t6"
+            android:layout_alignLeft="@+id/idea"
+            android:layout_alignRight="@+id/idea"
+            android:background="@drawable/spinnerback1"
+            android:spinnerMode="dialog"
+            android:text="hi"
+            android:textSize="20sp"
+            tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+        <EditText
+            android:id="@+id/idea"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_above="@+id/alert"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="          Detail in 40 words"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:maxLength="80"
+            android:textColor="#222222" />
+
+        <Spinner
+            android:id="@+id/reason"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/institution"
+            android:layout_alignRight="@+id/institution"
+            android:layout_centerVertical="true"
+            android:background="@drawable/spinnerback1"
+            android:ellipsize="marquee"
+            android:spinnerMode="dialog"
+            android:textSize="20sp"
+            tools:listitem="@android:layout/simple_spinner_dropdown_item" />
+
+        <ImageButton
+            android:id="@+id/time"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/reason"
+            android:layout_below="@+id/button2"
+            android:background="#eceef1"
+            android:src="@drawable/time_icon" />
+
+        <EditText
+            android:id="@+id/txtTime"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/reason"
+            android:layout_alignLeft="@+id/reason"
+            android:layout_marginBottom="13dp"
+            android:layout_toLeftOf="@+id/time"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="pick a time"
+            android:textColor="#222222" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/txtTime"
+            android:layout_marginBottom="15dp"
+            android:layout_toRightOf="@+id/txtTime"
+            android:background="#eceef1"
+            android:src="@drawable/date" />
+
+        <Button
+            android:id="@+id/alert"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/shape"
+            android:text="alert"
+            android:textColor="#056608" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:text="Your message will be seen by RGB staff"
+            android:textColor="#eceef1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Fill below form then press alert button,"
+            android:textColor="#eceef1" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:paddingTop="40dp"
+   android:paddingBottom="40dp"
+   android:paddingLeft="40dp"
+   android:paddingRight="40dp"
+   android:background="#A67B5B"
+   android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:background="#A4C639" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/password"
+            android:layout_marginTop="55dp"
+            android:text="This page is for Rwanda Governance board staff only." />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#222222" />
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="#eceef1"
+            android:text="open" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="101dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:hint="username"
+            android:textColor="#222222" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+</LinearLayout>

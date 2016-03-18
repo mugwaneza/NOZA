@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="34dp"
+            android:text="Banking insurance and Finance" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            
+           android:layout_marginLeft="15dp"
+            android:layout_marginTop="17dp"
+            android:text="Every Rwandese has a right to get the bank insurance and services for free and also for financial issue without any cost and with the same equal right before the laws everywhere you are." />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="23dp"
+            android:text="A guarantee by the Federal Deposit Insurance Corporation (FDIC) of deposits in a bank and Finance is a field that deals with the allocation of assets and liabilities over time under conditions of certainty and uncertainty."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:textSize="18sp"
+            android:text="Here you can give the corruption and you get authorized services." />
+
+    </RelativeLayout>
+
+</LinearLayout>

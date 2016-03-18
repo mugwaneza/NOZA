@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.school.noza"
+    
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+  <uses-sdk android:minSdkVersion="10"
+     
+        />
+ 
+ <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <application
+        android:largeHeap="true"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity  android:name="cs.school.noza.citizenauthentication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+        </activity>
+        <activity
+              android:name="cs.school.noza.CitizenPage"
+              android:screenOrientation="portrait"
+              android:configChanges="keyboardHidden|orientation">
+        </activity>
+        
+        
+        <activity android:name="cs.school.noza.rgbpage">
+        </activity>
+        <activity android:name="cs.school.noza.feedbacksend">
+        </activity>
+         <activity android:name="cs.school.noza.CreateNotification">
+        </activity>
+         <activity android:name="cs.school.noza.NotificationReceiver">
+        </activity>
+         
+      
+         <activity android:name="cs.school.noza.policepage">
+        </activity>
+        /show alert home pages
+        <activity android:name="cs.school.noza.showalertrgbHome1"
+            android:uiOptions="splitActionBarWhenNarrow"      >
+          
+        </activity>
+        
+        <activity android:name="cs.school.noza.showalertrgbHome2"
+                >
+           
+        </activity>
+        
+        <activity android:name="cs.school.noza.showalertrgbHome3"
+                  >
+           
+        </activity>
+        
+         <activity android:name="cs.school.noza.showalertrgbHome4"
+                >
+            
+        </activity>
+        
+          <activity android:name="cs.school.noza.showalertrgbHome5"
+                >
+             
+        </activity>
+        /end of home pages
+        
+        <activity android:name="cs.school.noza.showalertpolice">
+        </activity>
+         <activity android:name="cs.school.noza.retrievebyinstitutions">
+        </activity>   
+        
+          <activity android:name="cs.school.noza.MainActivity"
+                     android:screenOrientation="portrait"
+                    android:configChanges="keyboardHidden|orientation">
+        </activity>  
+        
+         <activity android:name="cs.school.noza.Retrieve">
+        </activity>
+         
+         <activity android:name="cs.school.noza.Editdatabase">
+        </activity>
+           <activity android:name="cs.school.noza.retrieve_feedback">
+        </activity>
+    
+        // listing pages
+         <activity android:name="cs.school.noza.page1"
+                   android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity android:name="cs.school.noza.page2">
+        </activity>
+        <activity android:name="cs.school.noza.page3">
+        </activity>
+        <activity android:name="cs.school.noza.page4">
+        </activity>
+        <activity android:name="cs.school.noza.page5">
+        </activity>
+        <activity android:name="cs.school.noza.page6">
+        </activity>
+        <activity android:name="cs.school.noza.page7">
+        </activity>
+        <activity android:name="cs.school.noza.page8">
+        </activity>
+        <activity android:name="cs.school.noza.page9">
+        </activity>
+        <activity android:name="cs.school.noza.page10">
+        </activity>
+        <activity android:name="cs.school.noza.page11">
+        </activity>
+        <activity android:name="cs.school.noza.page12">
+        </activity>
+         <activity android:name="cs.school.noza.page13">
+        </activity>
+         <activity android:name="cs.school.noza.page14">
+        </activity>
+         <activity android:name="cs.school.noza.page15">
+        </activity>
+         <activity android:name="cs.school.noza.page16">
+        </activity>
+         <activity android:name="cs.school.noza.page17">
+        </activity>
+         <activity android:name="cs.school.noza.page18">
+        </activity> 
+        <activity android:name="cs.school.noza.page19">
+        </activity>
+         <activity android:name="cs.school.noza.page20">
+        </activity>
+         <activity android:name="cs.school.noza.page21">
+        </activity>
+         <activity android:name="cs.school.noza.page22">
+        </activity>
+         <activity android:name="cs.school.noza.page23">
+        </activity> 
+        <activity android:name="cs.school.noza.page24">
+        </activity>
+         <activity android:name="cs.school.noza.page25">
+        </activity>
+         <activity android:name="cs.school.noza.page26">
+        </activity>
+         <activity android:name="cs.school.noza.page27">
+        </activity>
+         <activity android:name="cs.school.noza.page28">
+        </activity>
+         <activity android:name="cs.school.noza.page29">
+        </activity>
+         <activity android:name="cs.school.noza.page30">
+        </activity>
+         <activity android:name="cs.school.noza.page31">
+        </activity>
+         <activity android:name="cs.school.noza.page32">
+        </activity>
+         <activity android:name="cs.school.noza.page33">
+        </activity>
+        
+        // end
+        
+        //display to rgb data from database classes
+         <activity android:name="cs.school.noza.Showalertrgb1A"
+                    android:screenOrientation="landscape" 
+                    android:configChanges="orientation|keyboardHidden">
+        </activity> 
+         <activity android:name="cs.school.noza.Showalertrgb1B"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+         <activity android:name="cs.school.noza.Showalertrgb1C"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        
+        <activity android:name="cs.school.noza.showalertrgb2A"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+         <activity android:name="cs.school.noza.showalertrgb2B"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+         <activity android:name="cs.school.noza.showalertrgb2C"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        
+        <activity android:name="cs.school.noza.showalertrgb3A"
+                 android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity  android:name="cs.school.noza.showalertrgb3B"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb3C"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        
+        <activity android:name="cs.school.noza.showalertrgb4A"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb4B"
+                  android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb4C"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb5A"
+                   android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb5B"
+                    android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb5C"
+                 android:screenOrientation="landscape" 
+                   android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb6"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb7"
+                   android:screenOrientation="portrait"
+                   android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb8"
+                   android:screenOrientation="portrait"
+                   android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb9"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb10"
+                   android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb11" 
+                   android:screenOrientation="portrait"
+                   android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb12"
+                   android:screenOrientation="portrait"
+                   android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb13">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb14">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb15">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb16">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb17">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb18">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb19">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb20">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb21">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb22">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb23">
+        </activity>
+        <activity android:name="cs.school.noza.showalertrgb24">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb25">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb26">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb27">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb28">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb29">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb30">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb31">
+        </activity>
+          <activity android:name="cs.school.noza.showalertrgb32">
+        </activity>
+        
+        //end
+        
+         
+          <activity android:name="cs.school.noza.citizencomments"
+               android:screenOrientation="portrait"
+               android:configChanges="keyboardHidden|orientation">
+            
+        </activity>
+         <activity android:name="cs.school.noza.citizencomments2"
+              android:screenOrientation="portrait"
+              android:configChanges="keyboardHidden|orientation">
+        </activity>
+         <activity android:name="cs.school.noza.commentpage">
+        </activity>
+        <activity android:name="cs.school.noza.commentpage2">
+        </activity>
+        <activity android:name="cs.school.noza.commentpage3">
+        </activity>
+        <activity android:name="cs.school.noza.commentpage4">
+        </activity>
+        <activity android:name="cs.school.noza.programsofgov">
+        </activity>
+        
+        
+        
+        <activity android:name="com.rgb2.noza.registerpage">
+        </activity>
+
+        <activity android:name="com.rgb2.noza.loginpage">
+        </activity>
+      
+        //facebook
+        
+        <activity android:name="com.facebook.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+<meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+        
+        //end facebook
+        
+        //googleplus
+         <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" ></meta-data>
+         
+        // end google plus
+        
+    </application>
+<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permissionuses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permissionuses-permission> 
+</manifest>

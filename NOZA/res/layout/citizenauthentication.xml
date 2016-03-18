@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+     android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+   >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="552dp"
+        android:gravity="right" >
+
+         <com.facebook.widget.LoginButton
+             android:id="@+id/fb_login_button"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:textSize="18dp"
+             
+             android:layout_marginTop="138dp" />
+
+        <ImageView
+            android:id="@+id/imgProfilePic"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_revoke_access"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_sign_in"
+        android:background="@null"
+        android:layout_marginTop="26dp"
+        android:visibility="gone"
+        android:text="@string/btn_revoke_access" />
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_revoke_access"
+        android:text="@string/btn_logout_from_google" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_sign_in"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textSize="18dp" >
+    </com.google.android.gms.common.SignInButton>
+
+   <Button
+       android:id="@+id/signup"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/login2"
+       android:background="@null"
+       android:text="@string/btn_link_to_register"
+       android:textAllCaps="false"
+       android:textColor="#26ae90"
+       android:textSize="15dp" />
+
+   <TextView
+       android:id="@+id/t6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/fb_login_button"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="19dp"
+      
+       android:text="OR "
+        android:gravity="center"
+       android:textColor="#D3212D" />
+
+   <Button
+       android:id="@+id/login2"
+       android:layout_width="fill_parent"
+       android:layout_height="50dp"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/btn_sign_in"
+       android:layout_marginTop="63dp"
+       android:background="#eceef1"
+       android:text="Log in with Noza"
+       android:textColor="#26ae90" />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/btn_sign_in"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp"
+         android:gravity="center"
+       android:textColor="#D3212D"
+       android:text="OR" />
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txtName"
+       android:layout_marginLeft="56dp"
+       android:layout_marginTop="31dp"
+       android:layout_toRightOf="@+id/txtName"
+       android:gravity="center"
+       android:paddingLeft="10dp"
+       android:text="WELCOME TO RGB"
+       android:textColor="#A4C639" />
+
+    </RelativeLayout>
+ </LinearLayout>

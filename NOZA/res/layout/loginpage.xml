@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ae90"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" 
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="23.70" >
+
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="137dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Tel number"
+            android:inputType="textEmailAddress"
+            android:textColor="#222222" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tel"
+            android:layout_marginTop="23dp"
+            android:background="#eceef1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#222222" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="57dp"
+            android:text="        Enter user name and "
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:textColor="#fff"
+            android:text="        password you created" />
+
+        <Button
+            android:id="@+id/login2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="Log in"
+            android:textColor="#26ae90" />
+
+    </RelativeLayout>
+
+</LinearLayout>

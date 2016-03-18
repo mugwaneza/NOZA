@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:text="Travel, Tourism &amp; Transport"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="34dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="Tourism is travel for recreation, leisure, religious, family or business purposes, usually for a limited duration. Tourism is commonly associated with international travel, but may also refer to travel to another place within the same country and Transport or transportation is the movement of people, animals and goods from one location to another." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="39dp"
+            android:textSize="18sp"
+            android:text="Here every one has the right to be served and be transported on the price settled by RURA" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="21dp"
+            android:textSize="18sp"
+            android:text="In this activity is easy to get corruption for the people who need the service in visiting for example when there is order you can give the money and you get the service first of other which is not allowed and the corruption in transport is very easy because you can buy a ticket and you go before time by giving a money of corruption." />
+
+    </RelativeLayout>
+
+</ScrollView>
